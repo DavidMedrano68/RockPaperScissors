@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
 <body>
-    
+    <div class="container">
+        <div class="scoreboard">
+            <div class="user-score">User's Score: </div>
+            <div class="cpu-score">Computer's Score: </div>
+        </div>
+        <div class="user">
+            <button class='button'id="user-paper"><i class="fa-solid fa-hand"></i></button>
+            <button class='button'id="user-rock"><i class="fa-solid fa-hand-back-fist"></i></button>
+            <button class='button' id="user-scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+        </div>
+        <div class="cpu">
+            <button  id="cpu-paper"><i class="fa-solid fa-hand"></i></button>
+            <button  id="cpu-rock"><i class="fa-solid fa-hand-back-fist"></i></button>
+            <button  id="cpu-scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+        </div>
+        <div class="results">
+            <p id='results'></p>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/4218b23103.js" crossorigin="anonymous"></script>
 </body>
 </html>
